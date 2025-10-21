@@ -7,7 +7,7 @@ Day 02:
 Create a basic http server using express
 
 Example for basic express server:
-//import express
+//import express\n
 const express = require('express')
 
 //create express instance
