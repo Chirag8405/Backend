@@ -7,22 +7,21 @@ Day 02:
 Create a basic http server using express
 
 Example for basic express server:
-//import express\n
-const express = require('express')
+const express = require('express')    //import express
 
-//create express instance
-const app = express()
 
-//create port for the server
-const port = 3000
+const app = express()    //create express instance
 
-//create a simple function:
-app.get('/', (req,res) => {
+
+const port = 3000    //create port for the server
+
+
+app.get('/', (req,res) => {    //create a simple function:
+
   res.send("My first server")
 })
 
-//initialise the server
-app.listen(port, () => {
+app.listen(port, () => {   //initialise the server
   console.log(`server runnning on port ${port}`)
 })
   
